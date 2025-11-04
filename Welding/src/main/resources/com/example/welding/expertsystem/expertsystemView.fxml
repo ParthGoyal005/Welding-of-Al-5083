@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.welding.expertsystem.expertsystemController">
+   <children>
+      <Label layoutX="115.0" layoutY="37.0" prefHeight="34.0" prefWidth="367.0" text="Why do we need an Expert System?">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="41.0" layoutY="100.0" prefHeight="271.0" prefWidth="530.0" text="An expert system for welding of Aluminium 5083 is needed because welding this alloy requires &#10;specialized knowledge and experience due to its sensitivity to heat and tendency to crack or &#10;distort.&#10;&#10;There is often a scarcity of skilled welding experts, and they cannot be available all the time to &#10;assist in every situation. An expert system can store and apply expert knowledge, providing &#10;guidance on welding parameters, techniques, and defect prevention whenever needed.&#10;&#10;This helps ease the work of welders, ensures consistent weld quality, reduces errors, and saves &#10;time and cost in production. In short, the expert system acts as a virtual welding expert, &#10;supporting less experienced workers and improving overall efficiency." />
+   </children>
+</AnchorPane>

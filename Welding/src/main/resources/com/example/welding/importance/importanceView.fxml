@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="430.0" prefWidth="625.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.welding.importance.importanceController">
+   <children>
+      <Label layoutX="120.0" layoutY="28.0" text="Importance of using Al 5083 in ships">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="27.0" layoutY="83.0" prefHeight="324.0" prefWidth="571.0" style="-fx-border-color: white;" text="Aluminium alloy 5083 is used in ships mainly because of its high corrosion resistance, lightweight &#10;nature, and good strength. Here’s a detailed explanation:&#10;&#10;1. Corrosion resistance:&#10;The marine environment contains saltwater, which causes rapid rusting and corrosion in metals like &#10;steel. Aluminium 5083 naturally forms a protective oxide layer on its surface, preventing corrosion &#10;even in salty and humid conditions. This makes it suitable for the hull and deck areas, which are &#10;constantly exposed to seawater and air.&#10;&#10;2. Lightweight:&#10;Aluminium 5083 is much lighter which improves fuel efficiency, speed, and load capacity.&#10;&#10;3. Strength and toughness:&#10;Despite being light, Al 5083 has good mechanical strength and can withstand the stresses and &#10;vibrations experienced by ships during operation.&#10;&#10;4.Low maintenance:&#10;Since it does not rust like steel, it requires less painting and upkeep, lowering maintenance costs.&#10;&#10;5. Strength retention after welding:&#10;Welds in Aluminium 5083 typically retain 60–80% of the base metal’s strength, which is &#10;significantly better than heat-treatable aluminium alloys (such as 6061).">
+         <effect>
+            <Blend />
+         </effect>
+      </TextArea>
+   </children>
+</AnchorPane>
