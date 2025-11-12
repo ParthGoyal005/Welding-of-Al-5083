@@ -1,6 +1,7 @@
 module com.example.welding {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.desktop;
 
 
     opens com.example.welding to javafx.fxml;
@@ -23,6 +24,9 @@ module com.example.welding {
 
     exports com.example.welding.joint2;
     opens com.example.welding.joint2 to javafx.fxml;
+
+    exports com.example.welding.baking3;
+    opens com.example.welding.baking3 to javafx.fxml;
 
 
 }

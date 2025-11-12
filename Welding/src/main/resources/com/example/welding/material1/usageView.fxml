@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.welding.material1.usageController">
+   <children>
+      <Label layoutX="134.0" layoutY="117.0" text="Choose the pourpose of welding">
+         <font>
+            <Font name="Book Antiqua" size="23.0" />
+         </font></Label>
+      <ComboBox fx:id="applicationBox" layoutX="225.0" layoutY="228.0" prefWidth="150.0" />
+      <Button layoutX="270.0" layoutY="320.0" mnemonicParsing="false" onAction="#suggestAl" style="-fx-background-color: #0468BF; -fx-text-fill: WHITE; -fx-min-width: 60; -fx-background-radius: 5;" text="Next" />
+      <Label fx:id="selectText1" layoutX="227.0" layoutY="200.0" text="Please select an item" textFill="#d40e0e" visible="false" />
+      <ImageView fitHeight="113.0" fitWidth="150.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@71258691-container-ship-with-hand-draw-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

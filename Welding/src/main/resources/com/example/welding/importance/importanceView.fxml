@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.effect.Blend?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="430.0" prefWidth="625.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.welding.importance.importanceController">
-   <children>
-      <Label layoutX="120.0" layoutY="28.0" text="Importance of using Al 5083 in ships">
-         <font>
-            <Font size="24.0" />
-         </font>
-      </Label>
-      <TextArea editable="false" layoutX="27.0" layoutY="83.0" prefHeight="324.0" prefWidth="571.0" style="-fx-border-color: white;" text="Aluminium alloy 5083 is used in ships mainly because of its high corrosion resistance, lightweight &#10;nature, and good strength. Here’s a detailed explanation:&#10;&#10;1. Corrosion resistance:&#10;The marine environment contains saltwater, which causes rapid rusting and corrosion in metals like &#10;steel. Aluminium 5083 naturally forms a protective oxide layer on its surface, preventing corrosion &#10;even in salty and humid conditions. This makes it suitable for the hull and deck areas, which are &#10;constantly exposed to seawater and air.&#10;&#10;2. Lightweight:&#10;Aluminium 5083 is much lighter which improves fuel efficiency, speed, and load capacity.&#10;&#10;3. Strength and toughness:&#10;Despite being light, Al 5083 has good mechanical strength and can withstand the stresses and &#10;vibrations experienced by ships during operation.&#10;&#10;4.Low maintenance:&#10;Since it does not rust like steel, it requires less painting and upkeep, lowering maintenance costs.&#10;&#10;5. Strength retention after welding:&#10;Welds in Aluminium 5083 typically retain 60–80% of the base metal’s strength, which is &#10;significantly better than heat-treatable aluminium alloys (such as 6061).">
-         <effect>
-            <Blend />
-         </effect>
-      </TextArea>
-   </children>
-</AnchorPane>
+<ScrollPane prefHeight="430.0" prefWidth="625.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <AnchorPane maxHeight="610.0" minHeight="610.0" minWidth="0.0" prefHeight="610.0" prefWidth="622.0">
+         <children>
+            <TextArea editable="false" focusTraversable="false" layoutX="25.0" layoutY="67.0" prefHeight="525.0" prefWidth="571.0" style="-fx-border-color: white;" text="1. Marine Industry:&#10;    Aluminium 5083 is extensively used in shipbuilding for hulls, decks, and superstructures because &#10;    of its excellent resistance to seawater corrosion and high weldability, ensuring durability in harsh &#10;    marine environments.&#10;&#10;2. Transportation:&#10;    It is used in automotive panels, truck bodies, railway cars, and storage tanks due to its high &#10;    strength-to-weight ratio, lightweight nature, and good impact resistance, which improve fuel &#10;    efficiency and performance.&#10;&#10;3. Aerospace and Defence:&#10;    Al 5083 is employed in armor plating, aircraft panels, and missile components since it offers good &#10;    strength, toughness, and resistance to stress, making it suitable for structural and protective &#10;    applications.&#10;&#10;4. Construction and Architecture:&#10;    This alloy is used in pressure vessels, chemical storage silos, and structural frameworks because it&#10;    provides excellent corrosion resistance and maintains strength in industrial and outdoor &#10;    environments.&#10;&#10;5. Cryogenic Applications:&#10;    Al 5083 is preferred for cryogenic pressure vessels and pipelines as it retains its mechanical &#10;    properties and ductility even at extremely low temperatures, making it ideal for cold storage and &#10;    liquefied gas systems.&#10;&#10;6. Welded Structures:&#10;    It is used in welded tanks, frames, and supports because it offers excellent weldability and retains &#10;    around 60–80% of its base metal strength after welding, ensuring reliable performance in &#10;    fabricated structures.">
+               <effect>
+                  <Blend />
+               </effect>
+            </TextArea>
+            <Label layoutX="185.0" layoutY="14.0" text="Applications of Al 5083 ">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
