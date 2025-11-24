@@ -12,6 +12,9 @@
             <Font size="23.0" />
          </font>
       </Label>
-      <TextArea editable="false" layoutX="41.0" layoutY="100.0" prefHeight="271.0" prefWidth="530.0" text="An expert system for welding of Aluminium 5083 is needed because welding this alloy requires &#10;specialized knowledge and experience due to its sensitivity to heat and tendency to crack or &#10;distort.&#10;&#10;There is often a scarcity of skilled welding experts, and they cannot be available all the time to &#10;assist in every situation. An expert system can store and apply expert knowledge, providing &#10;guidance on welding parameters, techniques, and defect prevention whenever needed.&#10;&#10;This helps ease the work of welders, ensures consistent weld quality, reduces errors, and saves &#10;time and cost in production. In short, the expert system acts as a virtual welding expert, &#10;supporting less experienced workers and improving overall efficiency." />
+      <TextArea editable="false" layoutX="41.0" layoutY="100.0" prefHeight="271.0" prefWidth="530.0" text="An expert system for welding of Aluminium 5083 is needed because welding this &#10;alloy requires specialized knowledge and experience due to its sensitivity to heat &#10;and tendency to crack or distort.&#10;&#10;There is often a scarcity of skilled welding experts, and they cannot be available &#10;all the time to assist in every situation. An expert system can store and apply &#10;expert knowledge, providing guidance on welding parameters, techniques, and &#10;defect prevention whenever needed.&#10;&#10;This helps ease the work of welders, ensures consistent weld quality, reduces &#10;errors, and saves time and cost in production. In short, the expert system acts as a &#10;virtual welding expert, supporting less experienced workers and improving overall &#10;efficiency.">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
    </children>
 </AnchorPane>

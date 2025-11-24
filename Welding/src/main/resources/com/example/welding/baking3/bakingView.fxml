@@ -12,10 +12,10 @@
             <Font size="29.0" />
          </font>
       </Label>
-      <Button layoutX="45.0" layoutY="209.0" mnemonicParsing="false" onAction="#parameters" style="-fx-background-color: #77B1D4; -fx-min-width: 80; -fx-min-height: 30;" text="Permanant" />
+      <Button layoutX="45.0" layoutY="209.0" mnemonicParsing="false" onAction="#suggestBaking" style="-fx-background-color: #77B1D4; -fx-min-width: 80; -fx-min-height: 30;" text="Permanant" />
       <Button layoutX="459.0" layoutY="209.0" mnemonicParsing="false" onAction="#suggestBaking" style="-fx-background-color: #77B1D4; -fx-min-width: 80; -fx-min-height: 30;" text="Water Soluble" />
       <Button layoutX="332.0" layoutY="209.0" mnemonicParsing="false" onAction="#suggestBaking" style="-fx-background-color: #77B1D4; -fx-min-width: 80; -fx-min-height: 30;" text="Ceramic" />
       <Button layoutX="187.0" layoutY="209.0" mnemonicParsing="false" onAction="#suggestBaking" style="-fx-background-color: #77B1D4; -fx-min-width: 80; -fx-min-height: 30;" text="Temporary" />
-      <Button layoutX="266.0" layoutY="335.0" mnemonicParsing="false" onAction="#suggestBaking" style="-fx-background-color: #0468BF; -fx-background-radius: 6px; -fx-text-fill: white;" text="I don't know" />
+      <Button layoutX="259.0" layoutY="335.0" mnemonicParsing="false" onAction="#suggestBaking" style="-fx-background-color: #0468BF; -fx-background-radius: 6px; -fx-text-fill: white;" text="I don't know" />
    </children>
 </AnchorPane>

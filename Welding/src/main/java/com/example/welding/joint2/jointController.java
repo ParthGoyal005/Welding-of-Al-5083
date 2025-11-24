@@ -20,7 +20,7 @@ public class jointController {
 
     @FXML
     void bakingPlate(MouseEvent event){
-        SceneUtil.newScene2("baking3/bakingView.fxml",event);
+        SceneUtil.newScene2("joint2/jointparamView.fxml",event);
     }
 
     @FXML

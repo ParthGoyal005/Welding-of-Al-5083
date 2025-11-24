@@ -17,7 +17,7 @@ public class suggestbakingController {
 
     @FXML
     void parameters(ActionEvent event) {
-        SceneUtil.newScene("parameters4/parameterView.fxml", event);
+        SceneUtil.newScene("powersource4/powersourceView.fxml", event);
     }
 
     @FXML

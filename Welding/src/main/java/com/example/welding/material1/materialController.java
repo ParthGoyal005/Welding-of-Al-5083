@@ -33,7 +33,7 @@ public class materialController {
     void next(ActionEvent event) {
         if(materialCombo.getSelectionModel().isSelected(2))
         {
-            SceneUtil.newScene("joint2/jointView.fxml", event);
+            SceneUtil.newScene("thickness2/thicknessView.fxml", event);
         }
         else if(materialCombo.getSelectionModel().isSelected(0))
         {

@@ -36,4 +36,14 @@ public class SceneUtil {
             System.out.println(exp.getMessage());
         }
     }
+
+    public static void closeWindow(ActionEvent event) {
+        try {
+            Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            stage.close();   // closes the current window
+        }
+        catch (Exception exp) {
+            System.out.println(exp.getMessage());
+        }
+    }
 }

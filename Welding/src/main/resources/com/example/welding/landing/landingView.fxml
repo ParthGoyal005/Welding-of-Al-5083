@@ -9,15 +9,15 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.welding.landing.landingController">
    <children>
-      <Button layoutX="56.0" layoutY="346.0" mnemonicParsing="false" onAction="#importanceAl" text="Applications of Al" />
+      <Button layoutX="56.0" layoutY="346.0" mnemonicParsing="false" onAction="#importanceAl" text="Importance of Al 5083" />
       <Button layoutX="263.0" layoutY="346.0" mnemonicParsing="false" onAction="#challenges" text="Challenges" />
       <Button layoutX="395.0" layoutY="346.0" mnemonicParsing="false" onAction="#expertSystem" text="Why need an expert system?" />
-      <Label layoutX="40.0" layoutY="114.0" text="WELDING PROCESS OF">
+      <Label layoutX="65.0" layoutY="118.0" text="EXPERT SYSTEM FOR">
          <font>
-            <Font name="Bodoni MT" size="46.0" />
+            <Font name="Bodoni MT" size="43.0" />
          </font>
       </Label>
-      <Button layoutX="243.0" layoutY="265.0" mnemonicParsing="false" onAction="#startWelding" style="-fx-background-color: #0468BF; -fx-text-fill: white; -fx-border-radius: 5; -fx-min-height: 32; -fx-min-width: 90;" text="Start Welding">
+      <Button layoutX="224.0" layoutY="264.0" mnemonicParsing="false" onAction="#startWelding" style="-fx-background-color: #0468BF; -fx-text-fill: white; -fx-border-radius: 5; -fx-min-height: 32; -fx-min-width: 90;" text="Welding Procedure">
          <font>
             <Font size="15.5" />
          </font></Button>
@@ -26,9 +26,9 @@
             <Image url="@welding-removebg-preview.png" />
          </image>
       </ImageView>
-      <Label layoutX="227.0" layoutY="172.0" text="Al 5083">
+      <Label layoutX="90.0" layoutY="174.0" text="WELDING OF Al 5083">
          <font>
-            <Font name="Bodoni MT" size="46.0" />
+            <Font name="Bodoni MT" size="42.0" />
          </font>
       </Label>
    </children>

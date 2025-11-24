@@ -18,7 +18,7 @@ public class suggestController {
     @FXML
     void joint(ActionEvent event) {
 
-        SceneUtil.newScene("joint2/jointView.fxml",event);
+        SceneUtil.newScene("thickness2/thicknessView.fxml",event);
     }
 
     @FXML

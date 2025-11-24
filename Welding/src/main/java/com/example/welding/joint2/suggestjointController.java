@@ -17,7 +17,8 @@ public class suggestjointController {
 
     @FXML
     void baking(ActionEvent event) {
-        SceneUtil.newScene("baking3/bakingView.fxml",event);
+
+        SceneUtil.newScene("joint2/jointparamView.fxml",event);
     }
 
     @FXML

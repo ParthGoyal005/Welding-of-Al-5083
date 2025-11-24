@@ -15,10 +15,6 @@ public class bakingController {
     @FXML
     private URL location;
 
-    @FXML
-    void parameters(ActionEvent event) {
-        SceneUtil.newScene("parameters4/parameterView.fxml", event);
-    }
 
     @FXML
     void suggestBaking(ActionEvent event) {
